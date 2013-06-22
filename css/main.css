@@ -105,6 +105,17 @@ body {
     background: #f1eeb7;
 }
 
+ol, ul, menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .wrapper {
     max-width: 1100px;
     margin-right: auto;
@@ -119,6 +130,37 @@ body {
 
 .logo img {
     margin-top: 20px;
+}
+
+.page-nav {
+    max-width: 50em;
+    margin: 0 auto;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-top: 1.5em;
+}
+
+.page-nav-items {
+    float: right;
+}
+
+.page-nav-items li {
+    display: inline-block;
+}
+
+.page-nav-items li + li {
+    margin-left: 1em;
+}
+
+.page-nav-items a {
+    font-weight: 500;
+    font-size: 0.83333em;
+    opacity: 0.6;
+    text-transform: uppercase;
+}
+
+.page-nav-items a:hover, .page-nav-items a:focus, .page-nav-items a.selected {
+    opacity: 1;
 }
 
 .poster .section {
@@ -165,6 +207,10 @@ body {
 
 .social .pre-gap {
     margin-left: 60px;
+}
+
+footer {
+    margin-bottom: 30px;
 }
 
 .contact {
@@ -280,9 +326,7 @@ body {
  */
 
  .menu li {
-    list-style: none;
     margin: 0 5px;
-    padding: 0;
     display: inline-block;
  } 
 
