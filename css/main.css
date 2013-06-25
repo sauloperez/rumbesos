@@ -103,6 +103,7 @@ textarea {
 body {
     font-family: 'Open Sans', sans-serif;
     background: #f1eeb7;
+    color: #3E3F3A;
 }
 
 ol, ul, menu {
@@ -111,9 +112,37 @@ ol, ul, menu {
     padding: 0;
 }
 
+ul.list {
+    list-style-type: disc; 
+    list-style-position: inside; 
+    padding: 0 0 0 15px;
+}
+
+ol.list { 
+   list-style-type: decimal; 
+   list-style-position: inside; 
+   padding: 0 0 0 15px;
+}
+
 a {
     color: inherit;
     text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
 }
 
 .wrapper {
@@ -124,8 +153,13 @@ a {
     padding-left: 24px;
 }
 
-.content {
+.center {
     text-align: center;
+}
+
+.content {
+    max-width: 47em;
+    margin: 0 auto;
 }
 
 .logo img {
@@ -138,6 +172,21 @@ a {
     padding-right: 2em;
     padding-left: 2em;
     padding-top: 1.5em;
+}
+
+.home .logo {
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+}
+
+.page-nav .logo {
+    float: left;
+    position: relative;
+    display: block;
+    vertical-align: middle;
+    height: 1em;
+    margin: 0;
 }
 
 .page-nav-items {
@@ -167,7 +216,12 @@ a {
     margin-bottom: 18px;
 }
 
-.main, .dash {
+.poster .main h1, 
+.poster .main h2,
+.poster .main h3,
+.poster .main h4,
+.poster .main h5,
+.poster .main h6, .dash {
     color: #970329;
 }
 
@@ -177,18 +231,24 @@ a {
 
 .poster h1, .poster h2, .poster h3, .poster h4 {
     margin: 0;
+    font-weight: bold;
 }
 
 .large .aiaiai-itacaband, .large .dantuviamblacanalla {
     letter-spacing: -0.05em;
 }
 
-.secondary {
+.poster .secondary h1,
+.poster .secondary h2,
+.poster .secondary h3,
+.poster .secondary h4,
+.poster .secondary h5,
+.poster .secondary h6 {
     color: #8A6E73;
 }
 
 .social {
-    margin-top: 50px;
+    padding-top: 50px;
     clear: both;
 }
 
@@ -209,15 +269,11 @@ a {
     margin-left: 60px;
 }
 
-footer {
-    margin-bottom: 30px;
-}
-
 .contact {
     font-size: 0.85em;
-    margin-top: 60px;
-    margin-right: 13em;
+    padding-top: 40px;
     float: right;
+    padding-bottom: 20px;
 }
 
 /* ==========================================================================
