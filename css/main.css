@@ -157,6 +157,10 @@ h2 {
     text-align: center;
 }
 
+.row {
+    clear: both;
+}
+
 .content {
     max-width: 47em;
     margin: 0 auto;
@@ -266,11 +270,6 @@ h2 {
     color: #8A6E73;
 }
 
-.social-wrapper {
-    clear: both;
-    text-align: center;
-}
-
 .social {
     display: inline-block;
     padding-top: 50px;
@@ -291,6 +290,15 @@ h2 {
 
 .social .pre-gap {
     margin-left: 60px;
+}
+
+.sponsors-wrapper {
+    background: #fff;
+}
+
+.sponsors {
+    display: inline-block;
+    padding: 1em;
 }
 
 .contact {
