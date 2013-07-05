@@ -160,18 +160,11 @@ h2 {
 .content {
     max-width: 47em;
     margin: 0 auto;
+    padding-top: 2em;
 }
 
 .logo img {
     margin-top: 20px;
-}
-
-.page-nav {
-    max-width: 50em;
-    margin: 0 auto;
-    padding-right: 2em;
-    padding-left: 2em;
-    padding-top: 0.75em;
 }
 
 .logo {
@@ -186,6 +179,26 @@ h2 {
 .home .logo {
     width: 100%;
     padding-top: 325px;
+}
+
+.page-nav {
+    max-width: 50em;
+    margin: 0 auto;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-top: 0.75em;
+}
+
+.page-nav .logo > * {
+    background: url(../img/logo.png) top left no-repeat transparent;
+    width: 120px;
+    height: 25px;
+    margin: .02em 0 .04em 0;
+    text-indent: -9999px;
+    direction: ltr;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
 }
 
 .page-nav-items {
@@ -253,9 +266,14 @@ h2 {
     color: #8A6E73;
 }
 
-.social {
-    padding-top: 50px;
+.social-wrapper {
     clear: both;
+    text-align: center;
+}
+
+.social {
+    display: inline-block;
+    padding-top: 50px;
 }
 
 .social a {
