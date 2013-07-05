@@ -171,22 +171,21 @@ h2 {
     margin: 0 auto;
     padding-right: 2em;
     padding-left: 2em;
-    padding-top: 1.5em;
+    padding-top: 0.75em;
 }
 
-.home .logo {
-    display: block;
-    margin: 0 auto;
-    width: 700px;
-}
-
-.page-nav .logo {
+.logo {
     float: left;
     position: relative;
     display: block;
     vertical-align: middle;
     height: 1em;
     margin: 0;
+}
+
+.home .logo {
+    width: 100%;
+    padding-top: 325px;
 }
 
 .page-nav-items {
@@ -212,8 +211,11 @@ h2 {
     opacity: 1;
 }
 
-.poster .section {
-    margin-bottom: 18px;
+.poster .header {
+    background: url(../img/capcalera.png) top left transparent no-repeat;
+    min-height: 610px;
+    width: 1052px;
+    margin-top: 0.75em;
 }
 
 .poster .main h1, 
@@ -236,6 +238,10 @@ h2 {
 
 .large .aiaiai-itacaband, .large .dantuviamblacanalla {
     letter-spacing: -0.05em;
+}
+
+.poster .section {
+    margin-bottom: 1.21527781em;
 }
 
 .poster .secondary h1,
